@@ -1,3 +1,24 @@
+body{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.articles .article{
+  background-color:#FF5854; 
+}
+.tabs{
+  border: 15px solid;
+  border-color:#BF423F;
+  background-color:#FF5854;
+}
+.learn-more{
+  border: 15px solid;
+  border-color: #5CBF74;
+  background-color: #33FF71;
+}
+.jas{
+  color: #B0B3E5;
+}
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -11,7 +32,7 @@
 }
 
 .jas {
-  height: 500px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,10 +51,6 @@
 .jas p {
   font-size: 20px;
   color: #fff;
-}
-
-.learn-more {
-  background-color: #f7f7f7;
 }
 
 .learn-more h3 {
@@ -127,7 +144,9 @@ body {
 }
 
 .icon-menu {
-  color: #fff;
+  border: 15px solid;
+  border-color: #425B7F;
+  background-color: #6288BF;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -154,7 +173,7 @@ body {
   border-bottom: 1px #e5e5e5 solid;
 }
 .current .item {
-  background: rgba(206,220,206,.9);
+  background: #FF5854;
 }
 
 .description {
