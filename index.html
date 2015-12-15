@@ -1,185 +1,269 @@
-<!DOCTYPE html>
+<!DOCKTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <title>All About Jaskaran</title>
-    
-    <link rel="stylesheet" href="css/main.css" type='text/css'>
-    <script type="text/javascript" src="javascript/background.js"></script> 
-    <script type='text/javascript' src='javascript/main.js'></script>
-    <script src="javascript/googleapis.js"></script>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <script src="https://www.parsecdn.com/js/parse-1.3.5.min.js"></script>
-  </head>
-  <body>   
-   <body>
+		<title>Jaskaran Bakshi</title>
 
-    <div class="menu">
-      
-      <!-- Menu icon -->
-      <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-      </div>
+		<link rel="stylesheet" href="css/style.css" type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		
+		<script type='text/javascript' src='js/main.js'></script>
 
-      <!-- Menu -->
-      <ul>
-        <li><a href = 'All About Jas.html'>Home</a></li>
-        <li><a href="aboutme.html"><img src='images/aboutbutton.jpg'></a></li>
-        <li><a href="#"><img src="images/projectbutton.jpg"></a></li>
-        <li><a href="#"><img src='images/hackathonsbutton.jpg'></a></li>
-        <li><a href="contactme.html"><img src='images/contactbutton.jpg'></a></li>
-      </ul>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	<div id="page">
+
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<ul>
+				<li>
+					<a class="page-scroll" href="#contact">Contact Me</a>
+				</li>	
+				<li>
+					<a class="page-scroll" href="#about">About</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#hackathons">Hackathons</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#projects">Projects</a>
+				</li>	
+					
+				<li class ="name" >
+					<a class="page-scroll" href="#page-top">Jaskaran Bakshi</a>
+				</li>
+					
+			</ul>
+		</nav>
+
+		<section class="jas" id="page-top" data-spy="scroll">
+			<center>
+				<aside>
+			<div>
+					<h1>Jaskaran Bakshi</h1>
+
+					<img class="profile_pic" src="images/jaskaran.png">
+					<h3>High School Hacker-Developer-Coder </h3>
+				</div>	
+			</aside>	
+		</center>
+
+		</section>
+
+		<section  id="projects" class="projects">
+			<center>
+			<h1>Projects</h1>
+			<hr>
+					<i class="fa fa-gamepad fa-3x seperation"></i></center>
+			<aside class = "project_1">
+				<div class="container">
+					<article class="container-1">
+						<a class="retrocover" href="#portfolioModal1" data-toggle="modal">
+						
+						<div class="caption">
+							<div class="caption-content" >
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+
+						<img src="images/retrocover.png">
+					</a>
+					
+				</article>
+			</div>
+			</aside>
+
+			<aside class= "project_2">
+				<div class="container">
+					<article class="container-2">
+						<a class="TLDR" href="#portfolioModal2" data-toggle="modal">
+							<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="images/TLDR.jpg">
+					</a>
+				
+				</article>
+			</div>
+			</aside>
+			
+		</section>
+
+		<section id="hackathons" class="hackathons">
+			<center>
+			<h1>Hackathons</h1>
+			<hr>
+					<i class="fa fa-diamond fa-3x seperation"></i>
+			</center>
+			<div class="padding">
+			<article class="hshacks">
+				<div class="hshacks">
+					<h1>HS Hacks</h1>
+				<p class="middle">This hackathon was a large hackathons based only for High schooler and my team were creating an alarm system using a tesel but after running into many problems with the tesel we faild to sucessfully create a product from this hack.</p>	
+				<a class="btn" href = "http://www.hshacks.com/">Learn More</a>
+			
+		</div>
+			</article></div>
+			<div class="padding">
+			<article class="hackgeny">
+				<div class="hackgeny">
+					<h1>HackGen Y</h1>
+					<p class="middle">This hacathon was my very fist hackathon and started my intrest in programing.In this hackathon my team created retrospects which was an educational game teaching basic computer parts to educate children.</p>
+				<a class="btn" href="http://hackgeny.com">Learn More</a>
+			</div>
+			</article></div>
+			<div class="padding">
+			<article class="hackingedu">
+				<div class="hackingedu">
+					<h1>Hacking EDU</h1>
+					<p class="middle">In this hackathon my team created an app for ios and android which is called Ludus. As of rght now we have not published this app because it is still under production but its an app that helps to connect students in sports to thier coaches and it will have many other features as well.</p>
+				<a class="btn" href="https://hshacks.devpost.com/">Learn More</a>
+			</div>
+			</article></div>
+			<div class="padding">
+			<article class="makehacks">
+				<div class="makehacks">
+					<h1>Make Hacks</h1>
+					<p class="middle">This hackathon was a very intresting one.My team created an android ios and a website called TLDR which is a synthesis analyser on any text you input and wil out put diffrent peices of data.</p>
+				<a class="btn" href="https://www.makeschool.com/">Learn More</a>
+			</div>
+			</article></div>
+		</section>
+
+		<section id="about" class="about">
+			<center>
+					<h1>About Me</h1>
+					<hr>
+					<i class="fa fa-code seperation-grey"></i>
+			<p class="middle-2">I am a 16 year old programmer and i have been coding since I was 12 years old.I have been to a couple hackathons and I am well rounded in my school acedemics. I love to learn any type of new language. I love to develop mobile app for android and web development.</p>
+			<ul class="list-inline">
+						<li class="hi">
+						<a href="https://www.facebook.com/jas.bakshi.31">
+							<i class="fa fa-fw fa fa-github-square hi" style="width: 68.583"></i>
+						</a>
+					</li>
+				</ul>
+		</center>
+		</section>
+		
+		<section id="contact" class="contact">
+			<center>
+				<h1>Contact Me</h1>
+				<hr>
+				<i class="fa fa-comment fa-3x seperation"></i>
+
+				<div class="logo">
+					<ul class="list-inline">
+						<li class="hi">
+						<a href="https://www.facebook.com/jas.bakshi.31">
+							<i class="fa fa-fw fa-facebook-square hi" style="width: 68.583"></i>
+						</a>
+					</li>
+					<li class="hi">
+						<a href="https://twitter.com/jas10022">
+							<i class="fa fa-twitter-square hi"></i>
+						</a>
+					</li>
+					<li class="hi">
+						<a href="https://plus.google.com/u/0/118324753520161796710/posts">
+							<i class="fa fa-google-plus-square hi"></i>
+						</a>
+					</li>
+					<li class="hi">
+						<a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button">
+							<i class="fa fa-linkedin-square hi"></i>
+						</a>
+					</li>
+					</ul>
+				</div>
+				<h1>Email Address: jas10022jb@gmail.com</h1>
+				<h1>Phone Number: 408-802-1903</h1>
+			</center>
+		</section>
+
+
+
+		<footer>
+			<center>
+			Copyright &copy;Jaskaran Baskhi 2015
+			</center>
+		</footer>
+
+		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                        	<center>
+                            <h1>Retrocover</h1>
+                            <hr>
+								<i class="fa fa-gamepad fa-3x seperation"></i>
+ 							</center>
+ 							<center>
+								<img src="images/retrocover2.png">
+								<p class="increase">This is my first game at my very first hackathon and it is a game created to explain and give anyone the most simplest explanation to the computer through a game.</p>
+								<a class="btn2" style="color:#000" href="#">Get It Here</a>
+							</center>
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Main body -->
-    <div class="jumbotron">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <center>
+                            <h1>TLDR</h1>
+                            <hr>
+								<i class="fa fa-gamepad fa-3x seperation"></i>
+ 							</center>
+ 							<center>
+								<img src="images/TLDR.jpg">
+								<p class="increase">This is a website which is a sentiment analysizer where you input ur text and gives you certain out puts depending on what you have written.</p>
+								<a class="btn2" style="color:#000" href="#">Visit</a>
+							</center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        <table><tr><td id="Menu 2" onclick="main()"><img src='images/menu button.jpg'></td></tr></table>
-      </div>
-
-        <div class="jas">
- 
-    <canvas style = "width: 100%" class = 'hover' id="c"></canvas>
-<div class="container">
-
-<center class='float'>
-        <h1 class = "title">Jaskaran Bakshi</h1>
-        <p >learn all about me</p>
-        </center>
-        </div>
-      </div>
-      <div class= "tabs">
-      <div class="articles container">
-      <div class="article current">
-        <div class="item row">
-          
-            <center class="center">
-           <a><table><tr><td id="table" onclick="main()"><h1>Hackathons</h1></td></tr></table></a>
-          </center>
-        </div>
-        <div class="description row">
-          <div class= 'article-close pull-right'>
-            <a><table><tr><td id="table" onclick="main()"><h3>close</h3></td></tr></table></a>
-          </div>
-           <div class="row">
-            <div class="col-md-4">
-              <div class = 'thumbnail'>
-                <a href = "http://www.hshacks.com/">
-                <img src='images/hshacks.jpg'>
-              </a>
-               </div>
-              <div class = 'thumbnail'>
-                <a href="http://hackgeny.com">
-               <img src='images/geny.png'>
-             </a>
-              </div>
-              <div class = 'thumbnail'>
-                <a href="http://hackingedu.co/">
-               <img src='https://d3e7x39d4i7wbe.cloudfront.net/uploads/event/image/1333/hackingedu-1443461954.png'>
-             </a>
-              </div>
-              <div class = 'thumbnail'>
-                <a href="https://www.makeschool.com/">
-               <img src='http://ptownlife.org/ptownfiles/styles/large/private/articles/main/642/Oct2015/make%20school.png?itok=vI0DduOI'>
-             </a>
-              </div>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="articles container">
-      
-      <div class="article current">
-        <div class="item row">
-          
-            <center>
-           <a><table><tr><td id="table" onclick="main()"><h1>Projects</h1></td></tr></table></a>
-          </center>
-        </div>
-        <div class="description row">
-          <div class= 'article-close2 pull-right'>
-            <a><table><tr><td id="table" onclick="main()"><h3>close</h3></td></tr></table></a>
-          </div>
-         <div class='row'>
-      <div class="col-md-4">
-       <div class = 'thumbnail'>
-       
-      <a href='http://xenonxyz.itch.io/retrospecs'><img src='images/retrocover.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href='http://tolongdidntread.github.io/'><img src='images/TLDR.jpg'></a>
-      </div>
-      </div>
-    </div>
-        </div>
-      </div>
-    </div>
-    <div class="articles container">
-      
-      <div class="article current">
-        <div class="item row">
-          
-            <center>
-           <a><table><tr><td id="table" onclick="main()"><h1>Experience</h1></td></tr></table></a>
-          </center>
-        </div>
-        <div class="description row">
-          <div class= 'article-close3 pull-right'>
-            <a><table><tr><td id="table" onclick="main()"><h3>close</h3></td></tr></table></a>
-          </div>
-         <div class='row'>
-      <div class="col-md-4">
-       <div class = 'thumbnail'>
-      <a href=''><img src='images/icon.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href=''><img src='images/download.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href=''><img src='images/css-logo.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href=''><img src='images/js-icon.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href=''><img src='images/game-maker.png'></a>
-      </div>
-      <div class = 'thumbnail'>
-      <a href=''><img src='images/Official_unity_logo.png'></a>
-      </div>
-      </div>
-    </div>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
-<div class="learn-more">
-	  <div class="container">
-		<div class = 'row'>
-	      <div class = 'col-md-4'>
-			<h3>Expierience in Code</h3>
-			<p>learn more about what programs I have used and my code expierience</p>
-			<p><a href="#">See More</a></p>
-	      </div>
-		  <div class = 'col-md-4'>
-			<h3>Contact</h3>
-			<p>Here is where it is possible to contact me</p>
-			<p><a href="other pages/contactme.html">Contact</a></p>
-		  </div>
-		  <div class='col-md-4'>
-			<h3>Other Projects</h3>
-			<p>More projects are on the way</p>
-			<p><a href="other pages/more projects.html">More projects by me </a></p>
-		  </div>
-	    </div>
-	  </div>
+		
+		<script src="js/jquery.easing.min.js"></script>
+    	<script src="js/scrolling-nav.js"></script>
+    	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	</div>
-
-  </body>
+	</body>
 </html>

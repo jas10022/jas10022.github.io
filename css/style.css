@@ -1,0 +1,445 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700,700italic);
+
+body{
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #555;
+	margin: 0;
+	padding: 0;
+}
+
+#page{
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Text */
+
+h1{
+	margin: 0 0 1em 0;
+	font-family: 2.8em;
+	font-weight: 700;
+}
+
+h2{
+	margin: 0 0 .5em 0;
+	font-size: 1.6em;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+
+h3{
+	margin: 0 0 .5em 0;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+h4{
+	margin: 0 0 .5em 0;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+p{
+	margin: 0 0 1em 0;
+}
+
+p.middle{
+	font-size: 20px;
+}
+
+p.middle-2{
+	font-size: 30px;
+	padding: 0px 300px;
+	min-height: 200px;
+	margin: 0 0 0 0;
+}
+
+p.increase{
+	font-size: 60px;
+}
+
+a{
+	color: #0073ff;
+}
+
+ul{
+	text-decoration: none;
+}
+
+li.hi{
+	transition: ease-out .5s;
+	border-radius: 20%;
+}
+
+i.hi{
+	font-size: 5em;
+	padding: 0 10px;
+	transition:ease-out .5s;
+
+}
+
+i.hi:hover{
+	color: #fff;
+}
+
+li.hi:hover{
+	background-color: rgba(0,0,0, .6);
+	color:#fff;
+}
+
+.list-inline>li{
+	display: inline-block;
+}
+
+/* sections */
+
+section.jas h1{
+	margin-top: 50px;
+}
+
+section.projects{
+	margin-top: 45px;
+	margin-bottom: 450px;
+	padding: 0;
+
+}
+
+section.projects aside{
+	width: 50%;
+	float: left;
+	text-align: center;
+	background-color: #eee;
+}
+
+section aside.project_1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section aside.project_1 article{
+	min-height: 300px;
+}
+
+section aside div img.profile_pic{
+	width: 30em;
+	height: 30em;
+	border-radius: 10000px;
+}
+
+section aside.project_2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section aside.project_2 article{
+	min-height: 300px;
+}
+
+section.projects aside div article a{
+	display: block;
+	position: relative;
+}
+
+section.projects aside div article a i.fa{
+	margin-top: 130px;
+	color: #fff;
+}
+
+#projects .project_1 .container .container-1 .caption{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	margin: 0 auto;
+	opacity: 0;
+	background-color: rgba(24,188,156,.6);
+	transition:all ease-out .6s;
+}
+
+#projects .project_1 .container .container-1 .caption:hover{
+	opacity:1;
+}
+
+#projects .project_2 .container .container-2 .caption{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	margin: 0 auto;
+	opacity: 0;
+	background-color: rgba(24,188,156,.6);
+	transition:all ease-out .6s;
+}
+
+#projects .project_2 .container .container-2 .caption:hover{
+	opacity:1;
+}
+
+section.hackathons article{
+	padding: 30px;
+	color: #fff;
+
+}
+
+section.hackathons article div{
+	padding: 0 20px 0 515px;
+	
+	min-height: 250px;
+	display: block;
+}
+
+section.hackathons article.hshacks{
+	border: 15px solid;
+  	border-color:#CC8449;
+	background-color: #cc6633;
+}
+
+section.hackathons article.hshacks div.hshacks{
+	background: url(../images/hshacks.png) no-repeat 5px;
+}
+
+section.hackathons article.hackgeny{
+	border: 15px solid;
+  	border-color:#4993CC;
+	background-color: #44657E;
+}
+
+section.hackathons article.hackgeny div.hackgeny{
+	background: url(../images/rocket.png) no-repeat 5px;
+}
+
+section.hackathons article.hackingedu{
+	border: 15px solid;
+  	border-color:#CC8B49;
+	background-color: #EBAD6D;
+}
+
+section.hackathons article.hackingedu div.hackingedu{
+	background: url(../images/hackingedu.png) no-repeat 5px;
+}
+
+section.hackathons article.makehacks{
+	border: 15px solid;
+  	border-color:#53A3CC;
+	background-color: #3498db;
+}
+
+section.hackathons article.makehacks div.makehacks{
+	background: url(../images/makehacks.png) no-repeat 5px;
+}
+
+a.btn2{
+	text-decoration: none;
+	border: 1px solid #000;
+	padding: 4px 15px;
+	font-size: 1.2em;
+	transition:background-color.5s;
+	font-size: 40px;
+}
+a.btn2:hover{
+	background-color: rgba(0,0,0,.3);
+}
+
+a.btn{
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 4px 15px;
+	font-size: 1.2em;
+	color: #fff;
+	transition:background-color.5s;
+}
+a.btn:hover{
+	background-color: rgba(0,0,0,.3);
+}
+
+i.seperation{
+	display: inline-block;
+	position: relative;
+	top: -1.1em;
+	padding: 0 .25em;
+	font-size: 2em;
+	background-color: #fff;
+}
+
+i.seperation-grey{
+	display: inline-block;
+	position: relative;
+	top: -1.1em;
+	padding: 0 .25em;
+	font-size: 2em;
+	background-color: #eee;
+}
+
+hr{
+	position: relative;
+	margin-top: 21px;
+	margin-bottom: 21px;
+	border: 0;
+	border-top: 1px solid #000;
+	max-width: 1000px;
+}
+
+section.hackathons div.padding{
+	padding: 20px 350px 20px 350px;
+}
+
+section.about{
+	background-color: #eee;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.fade.in {
+    opacity: 1;
+}
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    /* outline: 0; */
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    /* transition: opacity 0.15s linear; */
+}
+@media (min-width: 768px)
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+    min-height: 10000px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+/* Navigation */
+
+nav {
+	z-index: 1;
+	background-color: rgba(0,0,0,.65);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+nav:after{
+	content:'';
+	display: block;
+	clear: both;	
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+
+nav ul li:hover{
+	background-color: rgba(0,0,0,.5);
+	transition:background-color ease-out .5s;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	width: 125px;
+	position: relative;
+}
+
+/* top-level */
+
+nav > ul > li{
+	float: right;
+}
+
+nav > ul > li.name{
+	float: left;
+}
+
+nav > ul > li > a{
+	width: auto;
+	padding: 10px 20px 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
