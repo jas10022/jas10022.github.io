@@ -57,7 +57,7 @@ p.middle-2{
 }
 
 p.increase{
-	font-size: 45px;
+	font-size: 40px;
 }
 
 a{
@@ -183,7 +183,6 @@ section.hackathons article{
 
 section.hackathons article div{
 	padding: 0 20px 0 515px;
-	
 	min-height: 250px;
 	display: block;
 }
@@ -292,9 +291,12 @@ section.projects aside{
 color: #fff;
 }
 
+article.focus:focus{
+	outline: none;
+}
+
 .modal-open .modal {
     overflow-x: hidden;
-    overflow-y: auto;
 }
 .fade.in {
     opacity: 1;
