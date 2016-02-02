@@ -138,8 +138,8 @@ section aside.project_2 article{
 }
 
 section.projects aside div article a{
-	display: block;
-	position: relative;
+	
+	position: absolute;
 }
 
 section.projects aside div article a i.fa{
@@ -225,6 +225,16 @@ section.hackathons article.makehacks{
 
 section.hackathons article.makehacks div.makehacks{
 	background: url(../images/makehacks.png) no-repeat 5px;
+}
+
+section.hackathons article.losaltos{
+	border: 15px solid;
+  	border-color:#53A3CC;
+	background-color: #3498db;
+}
+
+section.hackathons article.losaltos div.losaltos{
+	background: url(../images/losaltoshacks.png) no-repeat 5px;
 }
 
 a.btn2{
