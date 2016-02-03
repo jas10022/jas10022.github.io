@@ -138,8 +138,8 @@ section aside.project_2 article{
 }
 
 section.projects aside div article a{
-	
-	position: absolute;
+	display: block;
+	position: relative;
 }
 
 section.projects aside div article a i.fa{
@@ -291,6 +291,7 @@ hr{
 
 section.hackathons div.padding{
 	padding: 20px 20px ;
+	max-width: 90%;
 }
 
 section.projects aside{
